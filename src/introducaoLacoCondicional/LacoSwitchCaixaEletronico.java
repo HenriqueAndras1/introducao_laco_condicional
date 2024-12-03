@@ -14,7 +14,7 @@ public class LacoSwitchCaixaEletronico {
 		Scanner leia = new Scanner(System.in);
 
 		System.out.println("Codigo de Operação caixa eletronico");
-		System.out.println("Digite 1 para ver o Saldo");
+		System.out.println("\nDigite 1 para ver o Saldo");
 		System.out.println("Digite 2 para fazer um saque");
 		System.out.println("Digite 3 para fazer um um deposito");
 		opcao = leia.nextInt();
