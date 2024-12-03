@@ -2,7 +2,7 @@ package introducaoLacoCondicional;
 
 import java.util.Scanner;
 
-public class LacoSwitchCardapio {
+public class LacoSwitchCaixaEletronico {
 
 	public static void main(String[] args) {
 
