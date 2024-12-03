@@ -7,7 +7,7 @@ public class LacoSwitchCaixaEletronico {
 	public static void main(String[] args) {
 
 		float saldo = 1000;
-		float deposito = 0;
+		float deposito;
 		float saque;
 		
 		int opcao;
@@ -26,9 +26,8 @@ public class LacoSwitchCaixaEletronico {
 		case 2:
 			System.out.println("Digite o valor que quer sacar ! ");
 			saque = leia.nextFloat();
-			if (saque > 0 && saque < saldo){
-				saldo = saldo -= saque; // Processamento
-                System.out.printf("Seu saldo é de %.2f.", saldo);
+			if (saque > 0 && saque <= saldo){
+                System.out.printf("Seu saldo é de %.2f.", saldo -= saque);
             } else if (saque > saldo) {
                 System.out.println("Saldo infuficiente para esse valor !");
             }

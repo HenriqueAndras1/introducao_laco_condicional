@@ -2,7 +2,7 @@ package introducaoLacoCondicional;
 
 import java.util.Scanner;
 
-public class PositivoNegativo {
+public class LacoCondicionalPositivoNegativo {
 
     public static void main(String[] args) {
 
